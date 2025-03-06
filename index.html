@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/portfolio.png">
+    <title>Mayur Badgujar-Portfolio</title>
+    <link rel="icon" href="">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/bestermind" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="app">
+
+        <!-- ----------------------Navbar_section---------------------------------------------- -->
+        <div class="navbar">
+            <div class="navbar-container">
+                <h1>Mayur Badgujar</h1>
+
+                <div class="nav">
+                    <span class="hamburger" onclick="toggleMenu()">&#9776;</span>
+                    <ul>
+                        <li><a href="#landing-container">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contacts">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!------------------------------landingPage_section------------------------------------------------->
+        <div class="landing">
+            <div class="landing-container" id="landing-container">
+                <div class="landing-container-left">
+                    <div class="social-content">
+                        <a href="https://www.linkedin.com/in/mayur-badgujar-08931a221" target="_blank"
+                            rel="noreferrer"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" class="landing-social" aria-label="LinkedIn" height="1em"
+                                width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(33, 33, 33);">
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                </path>
+                            </svg></a>
+                        <a href="https://github.com/mayurbadgujar92" target="_blank" rel="noreferrer"><svg
+                                stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
+                                class="landing-social" aria-label="GitHub" height="1em" width="1em"
+                                xmlns="http://www.w3.org/2000/svg" style="color: rgb(33, 33, 33);">
+                                <path
+                                    d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                </path>
+                            </svg></a>
+                    </div>
+                </div>
+                <img src="Resume/myimage.jpg" alt="" class="landing-img">
+                <div class="landing-container-right">
+                    <div class="intro-content">
+                        <h4>Hi,there! <br>I am</h4>
+                        <h1>Mayur Badgujar</h1>
+                        <p>a Frontend Developer</p>
+                        <!-- <p>and <br>I am a Passionate</p>
+                        <h4>Web Developer</h4> -->
+
+                        <div class="intro-buttonContainer">
+                            <a href="Resume/Mayur-Badgujar-New-CV-Resume-20241218.pdf" download="resume"
+                                target="_blank">
+                                <button class="muibutton" type="button">
+                                    <span class="muibutton-label">Download CV</span>
+                                </button>
+                            </a>
+                            <a href="#contacts">
+                                <button class="muibutton2" type="button">
+                                    <span class="muibutton-label2">Contact</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <hr class="line"> -->
+
+        <!---------------------------About_section---------------------------------------------------------------->
+        <div class="about" id="about">
+            <div class="line-styling">
+                <div class="style-circle"></div>
+                <div class="style-circle"></div>
+                <div class="style-line"></div>
+            </div>
+            <div class="about-body">
+                <div class="about-description">
+                    <h2>Who I Am</h2>
+                    <p>Hey there, I'm Mayur – a passionate Frontend Developer the
+                        web designer from Surat, India.
+                        <br><br>
+                        I'm a Strong focus on creating beautiful, user-friendly websites and wen applications. I specialize in HTML ,CSS, Javascript and modern frontend like React.js. My goal is to deliver high-quality
+                        code that not only looks great but also performs flawlessly on any device. I enjoy solving
+                        complex problems with elegant solutions and love staying up-to-date with the latest industry
+                        trends and best practices.
+                        <!-- By day, I spearhead projects as a
+                        backend developer. By night, I dive into freelance gigs, crafting my own innovative products.
+                        Amidst this whirlwind, I indulge in penning articles, weaving poetry, and delving into the
+                        fascinating worlds of machine learning and AI. I'm a perpetual learner, endlessly curious,
+                        always seeking out new frontiers. -->
+                    </p>
+                </div>
+
+                <div class="about-img">
+                    <img src="img/officeboy1-Photoroom-Photoroom.png" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- <hr> -->
+
+        <!---------------------------Education_section---------------------------------------------------------------->
+        <div class="education" id="about">
+            <div class="education-body">
+                <div class="education-description">
+                    <h1>Education</h1>
+
+                    <div class="react-reveal education-card js1">
+                        <div class="educard-img"><img src="img/graduate-hat (1).png" alt=""></div>
+                        <div class="education-details">
+                            <h6>2020-2023</h6>
+                            <h4>Bachelor of Technology</h4>
+                            <h5>Bhagwan Mahavir College of Engineering and Technology</h5>
+                        </div>
+                    </div>
+
+                    <div class="react-reveal education-card js2">
+                        <div class="educard-img">
+                            <img src="img/graduate-hat (1).png" alt="">
+                        </div>
+                        <div class="education-details">
+                            <h6>2016-2019</h6>
+                            <h4>Diploma</h4>
+                            <h5>Mahavir Swami College of Polytechnic</h5>
+                        </div>
+                    </div>
+
+                    <div class="react-reveal education-card js3">
+                        <div class="educard-img"><img src="img/graduate-hat (1).png" alt=""></div>
+                        <div class="education-details">
+                            <h6>2015-2016</h6>
+                            <h4>10th Grade</h4>
+                            <h5>Sarvajanik High School,Surat</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="education-image">
+                    <img src="img/office table.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------Certificate_section------------------------------------------------------------------------>
+
+        <div class="certificate-body">
+
+            <div class="certificate-image">
+               <img src="img/certificate.png" alt="">
+            </div>
+
+            <div class="certificate-description">
+            <h1>Certificate</h1>
+            <div class="react-reveal certificate-card certi">
+                <div class="certificate-icon">
+                    <img src="img/quality.png" alt=""></div>
+                <div class="certificate-details">
+                    <h4>Giri's Tech Hub Pvt Ltd.</h4>
+                    <h4>Frontend Developer</h4>
+
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <!---------------------------Skills_section----------------------------------------------------------->
+        <div class="skills" id="skills">
+            <div class="skillsHeader">
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skillsContainer">
+                <div class="skill-scroll">
+                    <div class="marquee-container">
+                        <div class="marquee">
+
+                            <div class="skill-box">
+                                <img src="img/html.png" alt="">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/css.png" alt="">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/js.png" alt="">
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/React.png" alt="">
+                                <h3>React</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/bootstrap.png" alt="">
+                                <h3>BootStrap</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/mysql.png" alt="">
+                                <h3>MySQL</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/java.png" alt="">
+                                <h3>Java</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/git.png" alt="">
+                                <h3>Git</h3>
+                            </div>
+
+                        </div>
+                        <div class="marquee">
+
+                            <div class="skill-box">
+                                <img src="img/html.png" alt="">
+                                <h3>HTML</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/css.png" alt="">
+                                <h3>CSS</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/js.png" alt="">
+                                <h3>JavaScript</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/React.png" alt="">
+                                <h3>React</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/bootstrap.png" alt="">
+                                <h3>BootStrap</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/mysql.png" alt="">
+                                <h3>MySQL</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/java.png" alt="">
+                                <h3>Java</h3>
+                            </div>
+                            <div class="skill-box">
+                                <img src="img/git.png" alt="">
+                                <h3>Git</h3>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------Project_section---------------------------------------------------------------->
+        <div class="projects" id="projects">
+            <div class="projects-header">
+                <h1>Projects</h1>
+            </div>
+
+            <div class="projects-body">
+                <div class="projects-bodyContainer">
+                    <div class="react-reveal singleProject">
+                        <div class="projectContent">
+                            <h2>Fashion & Clothing Ecommerce</h2>
+                            <img src="img/fashio.png" alt="">
+
+                            <div class="project-showcaseBtn">
+                                <a href="https://github.com/mayurbadgujar92/Fashion-Clothing-Web-Page.git"
+                                    target="_blank" class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 496 512" class="Btn2" aria-label="GitHub" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg" style="color: #eaeaea;">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/mayurbadgujar92/Fashion-Clothing-Web-Page.git"
+                                    target="_blank" class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 640 512" id="hackerrank-automation-code" class="Btn3"
+                                        aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="project-lang">
+                                <span>Using HTML & CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- project-2 -->
+                    <div class="react-reveal singleProject">
+                        <div class="projectContent">
+                            <h2>Weather App</h2>
+                            <img src="img/weather-app.png" alt="">
+
+                            <div class="project-showcaseBtn">
+                                <a href="https://github.com/mayurbadgujar92/Weather-App.git" target="_blank"
+                                    class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 496 512" class="Btn2" aria-label="GitHub" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg" style="color: #eaeaea;">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/mayurbadgujar92/Weather-App.git" target="_blank"
+                                    class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 640 512" id="hackerrank-automation-code" class="Btn3"
+                                        aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="project-lang">
+                                <span>Using HTML,CSS & JS</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- project3 -->
+                    <div class="react-reveal singleProject">
+                        <div class="projectContent">
+                            <h2>Recipe Finder App</h2>
+                            <img src="img/Recipe.png" alt="">
+
+                            <div class="project-showcaseBtn">
+                                <a href="https://github.com/mayurbadgujar92/Recipe-Finder-App.git" target="_blank"
+                                    class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 496 512" class="Btn2" aria-label="GitHub" height="1em" width="1em"
+                                        xmlns="http://www.w3.org/2000/svg" style="color: #eaeaea ;">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                        </path>
+                                    </svg>
+                                </a>
+
+                                <a href="https://github.com/mayurbadgujar92/Recipe-Finder-App.git" target="_blank"
+                                    class="Btn1">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                        viewBox="0 0 640 512" id="hackerrank-automation-code" class="Btn3"
+                                        aria-label="Code" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z">
+                                        </path>
+                                    </svg>
+                                </a>
+                            </div>
+
+                            <div class="project-lang">
+                                <span>Using React Js</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------Contact------------------------------------------------------------- -->
+
+        <div class="contacts" id="contacts">
+            <div class="contacts-container">
+                <h1>Contacts</h1>
+                <div class="contacts-body">
+                    <div class="contacts-form">
+                        <form>
+
+                            <div class="input-container">
+                                <label for="Name" class="typeText">Name</label>
+                                <input type="text" id="name" placeholder="Name" name="Name" class="form-input inp">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="Email" class="typeText">Email</label>
+                                <input type="email" id="email" placeholder="Name@email.com" name="Email" class="form-input inp">
+                            </div>
+
+                            <div class="input-container">
+                                <label for="Message" class="typeText">Message</label>
+                                <textarea name="Message" id="message" type="text" placeholder="Type your message........"
+                                    class="form-message inp1"></textarea>
+                            </div>
+
+                            <div class="submit-btn">
+                                <button type="submit" class="btn1" id="submitButton" >
+                                    <p>Send</p>
+
+                                    <div class="submit-icon">
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            t="1569683742680" viewBox="0 0 1024 1024" version="1.1" class="send-icon"
+                                            height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <defs></defs>
+                                            <path
+                                                d="M931.4 498.9L94.9 79.5c-3.4-1.7-7.3-2.1-11-1.2-8.5 2.1-13.8 10.7-11.7 19.3l86.2 352.2c1.3 5.3 5.2 9.6 10.4 11.3l147.7 50.7-147.6 50.7c-5.2 1.8-9.1 6-10.3 11.3L72.2 926.5c-0.9 3.7-0.5 7.6 1.2 10.9 3.9 7.9 13.5 11.1 21.5 7.2l836.5-417c3.1-1.5 5.6-4.1 7.2-7.1 3.9-8 0.7-17.6-7.2-21.6zM170.8 826.3l50.3-205.6 295.2-101.3c2.3-0.8 4.2-2.6 5-5 1.4-4.2-0.8-8.7-5-10.2L221.1 403 171 198.2l628 314.9-628.2 313.2z">
+                                            </path>
+                                        </svg>
+
+                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                            viewBox="0 0 1024 1024" class="success-icon" height="1em" width="1em"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M699 353h-46.9c-10.2 0-19.9 4.9-25.9 13.3L469 584.3l-71.2-98.8c-6-8.3-15.6-13.3-25.9-13.3H325c-6.5 0-10.3 7.4-6.5 12.7l124.6 172.8a31.8 31.8 0 0 0 51.7 0l210.6-292c3.9-5.3.1-12.7-6.4-12.7z">
+                                            </path>
+                                            <path
+                                                d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z">
+                                            </path>
+                                        </svg>
+                                    </div>
+
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="contacts-details">
+                        <a href="mailto:mayurbadgujar9201@gmail.com" class="personal-details">
+                            <div class="gm-tel-ct">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                    stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="12" cy="12" r="4"></circle>
+                                    <path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-3.92 7.94"></path>
+                                </svg>
+                            </div>
+                            <p>mayurbadgujar9201@gmail.com</p>
+                        </a>
+
+                        <a href="tel:+919725814501" class="personal-details">
+                            <div class="gm-tel-ct">
+                                <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                    stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <p>+919725814501</p>
+                        </a>
+
+                        <div class="personal-details">
+                            <div class="gm-tel-ct">
+                                <svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" height="1em"
+                                    width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z">
+                                    </path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                </svg>
+                            </div>
+                            <p>Surat,India</p>
+                        </div>
+
+                        <div class="socialmedia-icons">
+                            <a href="https://github.com/mayurbadgujar92" target="_blank" class="icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 496 512"
+                                    aria-label="GitHub" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                    </path>
+                                </svg>
+                            </a>
+                            <a href="https://www.linkedin.com/in/mayur-badgujar-08931a221" target="_blank" class="icon">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512"
+                                    aria-label="LinkedIn" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/10946093_4611811-removebg-preview.png " alt="contacts" class="contacts-img">
+        </div>
+
+        <div class="footer">
+            <p>Copyright &copy 2025 By Mayur Badgujar</p>
+
+        </div>
+
+    </div>
+
+    <div class="backToTop">
+        <a href="#landing-container">
+            <button aria-label="Back To Top">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="jss145"
+                    height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M256 464c114.9 0 208-93.1 208-208S370.9 48 256 48 48 141.1 48 256s93.1 208 208 208zm0-244.5l-81.1 81.9c-7.5 7.5-19.8 7.5-27.3 0s-7.5-19.8 0-27.3l95.7-95.4c7.3-7.3 19.1-7.5 26.6-.6l94.3 94c3.8 3.8 5.7 8.7 5.7 13.7 0 4.9-1.9 9.9-5.6 13.6-7.5 7.5-19.7 7.6-27.3 0l-81-79.9z">
+                    </path>
+                </svg>
+            </button>
+        </a>
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>

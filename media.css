@@ -1,0 +1,424 @@
+@media screen and (max-width: 400px) {
+    .submit-btn {
+        align-self: center;
+    }
+    .contacts-details {
+        align-items: center;
+        margin-top: 32px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 959.95px) {
+    .muibutton {
+        width: 180px;
+    }
+    .muibutton2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-container h1 {
+        font-size: 26px;
+    }
+    .nav ul {
+        display: none; /* Hide the navigation links by default */
+        text-align: left;
+        width: 100%;
+        position: absolute;
+        background-color: #333;
+        top: 50px;
+        left: 0;
+        padding: 10px 0;
+      }
+
+      .nav ul li {
+        display: block;
+        margin: 0;
+      }
+
+      .nav ul li a {
+        padding: 10px;
+        border-bottom: 1px solid #444;
+        width: 100%;
+        text-align: left;
+      }
+           
+      .nav ul li a:hover{
+        color: rgb(194, 155, 239);
+      }
+
+      .nav .hamburger {
+        display: block; /* Show the hamburger menu on mobile */
+      }
+
+      .nav.active ul {
+        display: block; /* Show the menu when the navbar is active */
+      }
+    .landing-container {
+        flex-direction: column;
+        justify-content: space-between;
+        /* width: 100%; */
+    }
+    .landing-container-left {
+        flex: initial;
+        height: 40%;
+        width: 100%;
+    }
+    .landing-img {
+        --img-size: 200px;
+        border: 8px solid black;
+        left: 50%;
+        top: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .landing-social {
+        display: none;
+    }
+    .landing-container-right {
+        align-items: center;
+        /* background-color: black; */
+        box-sizing: border-box;
+        flex: initial;
+        height: 70%;
+        justify-content: center;
+        padding: 0 2rem;
+        width: 100%;
+    }
+    .intro-content {
+        margin-right: 0;
+        margin-top: 10px;
+        line-height: normal;
+        width: 100%;    }
+    .intro-content h4 {
+        font-size: 10px;
+        text-align: center;
+        margin-top: 140px;
+    }
+    .intro-content h1{
+        font-size: 30px;    
+        text-align: center;
+        margin-top: 10px;
+    }
+    .intro-content p {
+        font-size: 14px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        font-weight: 600;
+    }
+    .intro-buttonContainer {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 0 10px;
+    }
+    .intro-buttonContainer button {
+        margin-top: -20%;
+    }
+    .muibutton:hover{
+        background-color: rgb(234, 234, 234);
+        border-color: rgb(234, 234, 234);
+        color: rgb(33, 33, 33);
+    } 
+    .about .line-styling .style-circle {
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+    }
+    .about .line-styling .style-line {
+        height: 3px;
+        width: 93%;
+        border-radius: 10px;
+    }
+    .about-description > h2{
+        font-size: 40px;
+    }
+    .about-description > p {
+        font-size: 14px;
+    }
+    .about-img > img {
+        width: 200px;
+    }
+    .education-description>h1 {
+        font-size: 40px;
+    }
+    .certificate-description h1 {
+        font-size: 40px;
+    }
+    .skill-box {
+        height: 135px;
+        margin: 18px;
+        padding: 32px 16px;
+        width: 135px;
+    }
+    .skill-box img {
+        height: 40px;
+    }
+    .skill-box h3 {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+    .projects-header h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .contacts-container h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+    .MuiSnackbarContent-root {
+        flex-grow: initial;
+        min-width: 288px;
+    }
+    .MuiSnackbar-anchorOriginTopCenter {
+        top: 24px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .about-description > h2 {
+        align-self: center;
+    }
+    .education-description{
+        padding: 16px;
+     }
+    .education-description>h1 {
+        align-self: center;
+        font-size: 48px;
+        margin-bottom: 32px;
+    }
+    .education-card {
+        height: 130px;
+        margin-bottom: 24px;
+        padding: 16px;
+    }
+    .educard-img {
+        border-radius: 50%;
+        height: 45px;
+        width: 45px;
+    }
+    .educard-img > img {
+        width: 30px;
+    }
+    .education-details > h6 {
+        font-size: 14px;
+        margin-bottom: 7px;
+    }
+    .education-details > h4 {
+        font-size: 16px;
+        line-height: 126%;
+    }
+    .education-details > h5 {
+        font-size: 14px;
+        line-height: 126%;
+    }
+    .certificate-description{
+        padding: 16px;
+        flex: none;
+        margin-right: 0;
+    }
+    .certificate-description>h1 {
+        align-self: center;
+        font-size: 50px;
+        margin-bottom: 32px;
+    }
+    .certificate-card {
+        height: 130px;
+        margin-bottom: 24px;
+        padding: 16px;
+    }
+    .skills, .skillsContainer {
+        padding: 8px;
+    }
+    .skillsHeader h2 {
+        font-size: 48px;
+    }
+    .skill-scroll {
+        margin: 0;
+        width: 100%;
+    }
+    .projects-header h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .contacts-container {
+        align-items: center;
+        margin-top: 0;
+        padding: 32px;
+    }
+    .contacts-container h1 {
+        font-size: 48px;
+        margin-bottom: 30px;
+    }
+    .contacts-body {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts-form {
+        display: flex;
+        flex: 1 1;
+        width: 80%;
+    }
+    .contacts-form form {
+        align-items: flex-end;
+    }
+    .form-input {
+        margin-bottom: 7px;
+    }
+    .contacts-details {
+        align-items: center;
+        margin-top: 32px;
+        padding: 16px;
+    }
+    .personal-details {
+        margin-bottom: 30px;
+    }
+    .personal-details p {
+        margin-left: 18px;
+        width: 95%;
+    }
+
+}
+
+@media only screen and (max-width: 900px) {
+    .intro-content {
+        margin-right: 6%;
+        margin-top: 10%;
+        width: 60%;
+    }
+    .intro-buttonContainer {
+        align-items: flex-start;
+        flex-direction: column;
+        height: 120px;
+        margin-top: 1rem;
+        width: 200px;
+    }
+    .about .line-styling {
+        top: 20px;
+    }
+    .about .line-styling .style-circle {
+        height: 5px;
+        width: 5px;
+        border-radius: 50%;
+    }
+    .about-body {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        padding-top: 32px;
+    }
+    .about-description {
+        box-sizing: border-box;
+        flex: 0.6 1 0%;
+        padding: 20px;
+    }
+    .about-description > h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
+    .about-description > p {
+        font-size: 18px;
+    }
+    .about-img > img {
+        width: 250px;
+        flex: 0.4 1 0%;
+    }
+    .education-description {
+        flex: 1 1;  
+        margin: auto;
+    }
+    .education-description>h1 {
+        font-size: 50px;
+    }  
+    .education-card {
+        margin-bottom: 24px;
+        padding: 24px;
+        width: 100%;
+    }
+    .education-image {
+        display: none;
+    }
+    .certificate-image {
+        display: none;
+    }
+    /* .certificate-image>img {
+        display: none;
+    } */
+    .certificate-card {
+        margin-bottom: 24px;
+        padding: 24px;
+        width: 100%;
+    }
+    .skills {
+        min-height: 100%;
+        padding: 16px;
+    }
+    .skillsContainer {
+        margin: 16px 0;
+        padding: 16px;
+    }
+    .projects-bodyContainer {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .contacts-container {
+        margin-top: 16px;
+        width: 100%;
+    }
+    .contacts-container>h1 {
+        font-size: 48px;
+        margin: 0 0 18px;
+    }
+    .contacts-img {
+        display: none;
+    }
+    .personal-details p {
+        font-size: 14px;
+        margin-left: 16px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .navbar-container {
+        padding: 0 32px;
+    }
+    .social-content {
+        margin: 32px;
+    }
+    .intro-content h4 {
+        font-size: 18px;
+    }
+    /* .intro-content h1 {
+        font-size: 48px;
+    } */
+    .intro-content p {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 16px;
+        margin-top: 5px;
+    }
+    .intro-buttonContainer {
+        align-items: flex-start;
+        flex-direction: column;
+        height: 120px;
+        /* margin-top: 16px; */
+        width: 200px;
+    }
+    .muibutton:hover{
+        background-color: rgb(234, 234, 234);
+        border-color: rgb(234, 234, 234);
+        color: rgb(33, 33, 33);
+    }
+}
